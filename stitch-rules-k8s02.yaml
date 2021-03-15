@@ -8,7 +8,7 @@ spec:
       expression: "#ctx.deployedApplication.environment.name == 'kubernetes-env'"
     processor:
       - type: freemarker
-        description: "Adding first label to kubernetes spec"
+        description: "Adding first label to kubernetes spec-updated by branch-04"
         phase: BASE_DEFINITION
         merge:
           type: overlay
